@@ -1,205 +1,664 @@
-# Sprout（スプラウト） - 著作権とライセンス表示
-
-## 🇯🇵 日本語版（Sproutカスタムライセンス）
-
-> 本プロジェクト「Sprout（スプラウト）」は、2025年7月14日制定のSproutカスタムライセンスに基づき保護されています。  
-> 本構想に含まれる**設計理念・構成・名称・デザイン・UX設計・文章・目的（共創と自立支援）**のすべてにおいて、著作権は**吉岡有隆（Yutaka Yoshioka）**に帰属します。  
-> 無断での複製・改変・商用利用・派生物の公開は固く禁じられています。  
-> 詳細は [LICENSE.md](./LICENSE.md) をご確認ください。
-
----
-
-## 🇬🇧 English version (Sprout Custom License)
-
-> This project "Sprout" is protected under the **Sprout Custom License**, established on July 14, 2025.  
-> All rights including the **design philosophy, structure, name, UX, documentation, and purpose (co-creation and self-support)** belong to **Yutaka Yoshioka**.  
-> Unauthorized reproduction, modification, commercialization, or derivative publishing is strictly prohibited.  
-> See [LICENSE.md](./LICENSE.md) for full details.
-
 # Sprout（スプラウト）
+
+**学ぶ・働く・表現することを、本人のペースから始めるための共創型支援アプリ／プラットフォーム構想**
 
 > 「種のままの才能が、根を張り、芽を出し、誰にも邪魔されずに育つように」
 
-Sproutは、精神的・身体的・その他社会的困難を抱える人々が、自分のペースで学び・働き・表現出来る、
-共創型セーフゾーンを目指す支援アプリ構想です。
+Sprout（スプラウト）は、精神的・身体的・社会的な困難などにより、一般的な学習環境や就労環境へそのまま適応することが難しい人でも、**自分の状態や速度に合わせて学び、仕事を試し、実績を作り、必要に応じて収入や社会参加へつなげること**を目標としたアプリ／プラットフォーム構想です。
 
-このリポジトリでは、その設計理念・機能構想・技術構成の全体像を公開しています。
+Sproutでは、「支援する側」と「支援される側」を固定的な上下関係として扱うのではなく、必要な時には支援を受け、別の場面では自分が持っている知識や経験で誰かを手伝える、**対等性と共創性を重視した支援環境**を目指します。
 
----
+また、就労継続支援A型・B型を含む各種福祉施設では、地域、事業所、職員体制、設備、提供される仕事、学習機会、工賃・賃金、支援内容などに差があります。
 
-## 概要
+Sproutでは、こうした**「どの施設を利用したかによって、受けられる学習機会・仕事体験・情報・実績づくりの機会に大きな差が生まれる状態」を、デジタル支援によって可能な限りフラットにすること**も長期的な目標の一つとしています。
 
-Sproutは、以下のような価値観に基づいて設計されています：
-
-- 対等性と共創性（支援者と被支援者の境界をなくす）
-- 学びと自己表現の自由
-- 経済的・社会的自立の足がかり
-- 他者と繋がれるけれど、無理をしなくていい安心感
-
-Flutter + GPTベースの軽量アプリとして、ネットが不安定な環境や個人PCでも使える構成を目指しています。
+現在は**構想・設計段階**です。公開している設計資料は、将来の実装候補や検討中の仕様を含むものであり、現時点で各機能の実装・提供を保証するものではありません。
 
 ---
 
-## 構成ファイル
+## Project Information
 
-- `Sprout_Design_v0.1.pdf`：理念・機能一覧・対象ユーザーなどの設計書
-- `LICENSE.md`：FUKUライセンス（非営利・非軍事・共創型許諾）
-
----
-
-## 今後の予定
-
-- Flutter + GPTベースのα版アプリ開発
-- 記録PDF出力機能・日報UIの実装
-- コミュニティ設計（いいね圧なしの掲示板機能）
-- 他支援アプリ（Yutone、Meteomo）との将来的連携
-
----
-
-## 著作権とライセンス
-
-© 2025 吉岡有隆（Yutaka Yoshioka） / Sprout構想  
-本構想および文書は著作権法により保護されています。  
-無断転載・複製・商用利用を禁じます。
-
-この構想は、以下の条件下で共有・翻訳等が可能です：
-
-- **非営利目的に限る**
-- **軍事利用・暴力利用を禁じる**
-- **原著作権者（© Yutaka Yoshioka）を明示すること**
-- **F.U.K.U.構想およびKindureOSライセンスに準拠すること**
-
-詳しくは [`LICENSE.md`](./LICENSE.md) をご覧ください。
-
----
-
-## 著作権と表記
-
-© 2025 有隆（Yutaka）. All rights reserved.  
-最終更新日：2025年7月14日
-
-このプロジェクト「Sprout（スプラウト）」およびその構想・デザイン・ロゴ・理念・UX設計は  
-**吉岡有隆（Yutaka Yoshioka）** によって創作されたものです。  
-許可なくビジュアルやコンセプトを改変・再配布することはご遠慮ください。
+- **Project:** Sprout（スプラウト）
+- **Category:** 学習支援 / 就労支援 / 福祉支援 / 共創プラットフォーム
+- **Status:** 構想・設計段階
+- **Initial Design:** 2025-07-14
+- **Last Updated:** 2026-08-26
+- **企画・原案・設計:** 吉岡有隆 / Yutaka Yoshioka
+- **想定技術:** Flutter + GPT / ローカル動作を含む構成
+- **License:** Sprout Custom License
 
 [![DOI](https://zenodo.org/badge/1019444188.svg)](https://doi.org/10.5281/zenodo.15878651)
 
-> Sprout is not just an app—it's a co-creative zone where your smallest seed of potential is allowed to grow gently, without fear.
+---
+
+# Sproutを考えた理由
+
+病気、障害、対人不安、就労上の困難などがある場合、
+
+- 決められた時間に毎日通う
+- 一定量の作業を継続する
+- 人とのやり取りを繰り返す
+- 分からないことをその場で質問する
+- 体調が悪くても周囲と同じ速度で進む
+
+といった、一般的な学習・就労環境そのものが負担になることがあります。
+
+一方で、
+
+**「働けない」ことと「何も出来ない」ことは同じではありません。**
+
+短時間なら出来ること、得意なこと、一人なら出来ること、文章なら伝えられること、体調が良い日にだけ出来ることなど、人によって可能な条件は異なります。
+
+Sproutでは、その差を「能力がない」と一括りにせず、
+
+**本人に合う条件を探しながら、小さく学び、小さく試し、実績へつなげること**
+
+を重視します。
+
+最初から一般就労や大きな成果だけをゴールにするのではなく、
+
+```text
+今の状態を確認する
+        ↓
+無理のない範囲を決める
+        ↓
+少し学ぶ
+        ↓
+小さな課題を試す
+        ↓
+出来た内容を実績として残す
+        ↓
+必要なら支援者と共有する
+        ↓
+本人に合った仕事・活動・社会参加へつなげる
+```
+
+という段階的な支援を構想しています。
 
 ---
 
-## コントリビューション歓迎
+# 福祉施設ごとの「機会格差」を小さくする
 
-バグ報告・翻訳協力・Flutter実装協力など、非営利かつ優しさを大切に出来る方の参加をお待ちしています。  
-Pull Request や Issue はお気軽にどうぞ。
+Sproutが目指すものの一つは、**福祉施設そのものを一律にすることではなく、施設ごとに生じる「利用者が得られる機会の差」を小さくすること**です。
 
----
+例えば同じ就労支援制度の中でも、事業所によって、
 
-## 関連プロジェクト
+- PCやソフトウェアを使える環境
+- IT・ライティング・デザイン・プログラミング等を学べる機会
+- 実際の仕事に近い作業を経験出来るか
+- フィードバックを受けられるか
+- ポートフォリオを作れるか
+- 外部の仕事や一般就労へつながる情報があるか
+- 工賃・賃金や作業内容
+- 支援者が持っている専門知識
+- 利用者自身が選べる作業の種類
 
-- [Yutone]：記録・リマインダー・優しいタイマー統合アプリ
-- [Meteomo]：気圧・体調・気分記録支援アプリ・治験貢献アプリ
-- [FUKU構想]：優しさを設計する未来社会システム哲学・OS案
+などに差が生じる可能性があります。
 
----
+Sproutでは、共通の学習教材、AI補助、スモールワーク、実績管理、制度情報、ポートフォリオ機能等をオンラインで利用出来るようにすることで、
 
-# Sprout - Copyright and License Notice
+**「この施設だから学べない」「この地域だから仕事体験がない」「担当職員が詳しくないから情報へ届かない」**
 
-## Japanese Version (Sprout Custom License)
+という差を少しでも減らすことを目標とします。
 
-> This project "Sprout" is protected under the Sprout Custom License, established on July 14, 2025.  
-> All rights to the **design philosophy, structure, name, visual identity, UX design, written content, and its purpose (co-creation and self-support)** belong to Yutaka Yoshioka.  
-> Unauthorized reproduction, modification, commercial use, or publication of derivative works is strictly prohibited.  
-> For more details, see [LICENSE.md](./LICENSE.md).
+これは施設間の優劣を判定する仕組みではありません。
 
----
-
-## English Version (Sprout Custom License)
-
-> This project "Sprout" is protected under the Sprout Custom License, established on July 14, 2025.  
-> All rights including the design philosophy, structure, name, UX, documentation, and purpose (co-creation and self-support) belong to Yutaka Yoshioka.  
-> Unauthorized reproduction, modification, commercialization, or derivative publishing is strictly prohibited.  
-> See [LICENSE.md](./LICENSE.md) for full details.
-
-# About Sprout
-
-> "Let the seed of your talent take root, sprout, and grow—without interference."
-
-Sprout is a concept for a support application designed to create a co-creative safe zone where individuals facing mental, physical, or social challenges can learn, work, and express themselves at their own pace.
-
-This repository shares the full concept, including its design philosophy, functional ideas, and technical framework.
+むしろ、設備や人員が限られている事業所でも、外部のデジタル支援基盤を使うことで利用者へ提供出来る選択肢を増やし、同時に職員側の教材作成・説明・管理負担を減らすことを想定しています。
 
 ---
 
-## Overview
+# 基本方針
 
-Sprout is designed based on the following core values:
+## 1. 本人のペースを前提にする
 
-- Equality and co-creation (eliminating boundaries between supporters and those supported)  
-- Freedom to learn and express  
-- A stepping stone toward economic and social independence  
-- A sense of connection without pressure or obligation
+「出来る人に合わせる」のではなく、本人が現在出来る範囲から始める設計を重視します。
 
-It is envisioned as a lightweight app based on Flutter + GPT, built to work even in low-connectivity environments or on personal devices.
+体調や生活状況によって、昨日出来たことが今日は難しい場合もあります。
 
----
+Sproutでは、活動量が一定であることを当然とせず、
 
-## Files Included
+- 短時間だけ利用する
+- 学習だけ行う
+- 仕事体験だけ行う
+- 記録だけ残す
+- 何もしない日を作る
 
-- `Sprout_Design_v0.1.pdf`: Concept document outlining the purpose, functions, and target users  
-- `LICENSE.md`: FUKU License (non-commercial, non-military, co-creative use)
-
----
-
-## Upcoming Features
-
-- Alpha version of the Flutter + GPT application  
-- PDF export function and daily report UI  
-- Community design with a no-pressure, no-"like" bulletin board  
-- Future integration with other support tools (Yutone, Meteomo)
+といった選択を可能にすることを目指します。
 
 ---
 
-## Copyright and License
+## 2. 支援する側／される側を固定しない
 
-© 2025 Yutaka Yoshioka / Sprout Project  
-This concept and its documents are protected under copyright law.  
-Unauthorized reproduction, redistribution, or commercial use is prohibited.
+Sproutでは、利用者を一方的に「支援される人」として扱うことを目的としません。
 
-This concept may be shared or translated under the following conditions:
+ある場面では支援を必要としていても、別の場面では、
 
-- For non-commercial purposes only  
-- Prohibited from military or violent applications  
-- Clear attribution to the original author (© Yutaka Yoshioka)  
-- Must comply with the F.U.K.U. concept and KindureOS License
+- 得意分野を教える
+- 他の利用者を少し手伝う
+- 自分の経験を共有する
+- 制作物を提供する
 
-See [`LICENSE.md`](./LICENSE.md) for full details.
+ことが出来る場合があります。
 
----
+そのため、
 
-## Copyright Statement
+**「助けてもらった人が、無理のない範囲で別の誰かを助ける」**
 
-© 2025 Yutaka (Yutaka Yoshioka). All rights reserved.  
-Last updated: July 14, 2025
-
-The project "Sprout," including its concept, design, logo, philosophy, and UX structure,  
-was created by Yutaka Yoshioka.  
-Please refrain from modifying or redistributing the visuals or concept without permission.
-
-> Sprout is not just an app—it's a co-creative zone where your smallest seed of potential is allowed to grow gently, without fear.
+という循環を、将来的なコミュニティ設計の一つとして想定しています。
 
 ---
 
-## Contributions Welcome
+## 3. 学習を実際の仕事へつなげる
 
-We welcome participation from those who value kindness and non-commercial collaboration,  
-including bug reports, translation support, and Flutter implementation assistance.  
-Feel free to submit a Pull Request or open an Issue.
+学習だけで完結せず、
+
+```text
+学習
+ ↓
+練習
+ ↓
+模擬業務
+ ↓
+小さな実務
+ ↓
+成果物
+ ↓
+ポートフォリオ
+ ↓
+次の仕事・活動
+```
+
+へつなげられる構成を検討しています。
+
+一般就労だけを唯一の到達点にはせず、フリーランス、小さな業務、福祉的就労、創作活動など、本人に適した形を選択できることを重視します。
 
 ---
 
-## Related Projects
+## 4. 支援者側の負担も減らす
 
-- [Yutone]: An integrated app for logging, reminders, and gentle timekeeping  
-- [Meteomo]: A weather-sensitive health tracker and research-supportive app  
-- [FUKU Concept]: A philosophy and design system for structuring kindness into future society
+Sproutは利用者だけのためのシステムではありません。
+
+福祉職や就労支援事業者等が、
+
+- 同じ説明を何度も行う
+- 教材を個別に用意する
+- 日報や作業記録を整理する
+- 利用者ごとの進捗を把握する
+- 制度情報を説明する
+
+といった負担を軽減することも構想に含まれています。
+
+利用者側の自立を求めるだけでなく、**支援する側が継続可能な仕組み**であることも重要と考えています。
+
+---
+
+# 想定している主な機能
+
+## 1. 学習サポート
+
+対人コミュニケーションへの負担を抑えながら、本人のペースで学習を進められる仕組みを検討しています。
+
+想定分野：
+
+- 事務作業
+- ライティング
+- Web制作
+- Webデザイン
+- 画像編集
+- 動画編集
+- プログラミング
+- IT基礎
+- その他、就労や制作に利用できる技能
+
+AIとの対話式学習を利用する場合も、
+
+- 同じ質問を何度してもよい
+- 分からない部分だけ聞ける
+- 学習速度を本人に合わせる
+- 対人質問への心理的負担を減らす
+
+といった補助的な用途を想定しています。
+
+---
+
+## 2. 仕事体験・スモールワーク
+
+いきなり大きな仕事を任せるのではなく、小さな単位から仕事を経験出来る構成を検討しています。
+
+例：
+
+- 模擬業務
+- 短時間の簡易タスク
+- データ整理
+- 簡単な文章作成
+- 画像作成
+- Web更新
+- その他、本人の技能に応じた作業
+
+将来的にはSprout内で、
+
+```text
+タスクを確認
+    ↓
+本人が出来そうなものを選ぶ
+    ↓
+作業
+    ↓
+提出
+    ↓
+確認・フィードバック
+    ↓
+実績として保存
+```
+
+という流れを作ることを検討しています。
+
+---
+
+## 3. ポートフォリオ・実績管理
+
+学習や仕事体験で作った成果物を、その場限りで終わらせない設計を目指します。
+
+検討中の連携先：
+
+- GitHub
+- WordPress
+- 個人Webサイト
+- その他のポートフォリオ
+
+Sprout内で行った学習・制作・仕事体験を整理し、本人が外部でも説明出来る実績へ変換することを想定しています。
+
+スキルバッジや信頼スコア等も初期構想に含まれていますが、利用者間の過度な序列化や競争につながらないよう、実装する場合は評価方法を別途検討します。
+
+---
+
+## 4. 気分・体調・服薬等の記録
+
+日々の、
+
+- 体調
+- 気分
+- 服薬状況
+- 活動状況
+- 日報
+
+等を簡単に記録する構想があります。
+
+必要に応じて支援者へ提示するPDFレポート等を作成し、
+
+**「何が出来たか」「どの程度負担だったか」**
+
+を本人が説明しやすくすることを想定しています。
+
+将来的には、セルフモニタリングアプリ **MeteOmo** との連携も検討しています。
+
+---
+
+## 5. 福祉・就労情報
+
+福祉制度や就労支援情報を、必要な人が探しやすい形に整理する機能を検討しています。
+
+候補：
+
+- 就労継続支援A型
+- 就労継続支援B型
+- その他の就労支援
+- 地域別の支援情報
+- 福祉制度
+- 障害年金等に関する一般的な制度情報
+- 働く際に利用可能な支援制度
+
+制度上の資格・認定・受給可否等をSprout自身が判断するものではなく、必要に応じて公的機関や専門家へ確認するための情報整理を目的とします。
+
+---
+
+## 6. 工賃・作業収入等の可視化
+
+福祉的就労や小さな仕事を行う場合、
+
+- 工賃
+- 作業収入
+- その他の収入
+
+を本人が把握しやすくする仕組みを検討しています。
+
+単なる金額管理だけではなく、
+
+**「どの程度の作業で、どの程度の収入になったか」**
+
+を振り返り、本人と支援者の双方が無理のない働き方を検討する材料とすることを想定しています。
+
+---
+
+# 将来構想
+
+## 共創型コミュニティ
+
+将来的には、利用者同士が交流出来るコミュニティ機能を検討しています。
+
+ただし、一般的なSNSのような、
+
+- いいね数
+- フォロワー数
+- 人気ランキング
+- 過度な競争
+- 常時交流することへの圧力
+
+を中心にした設計にはしない方針です。
+
+候補として、
+
+- 匿名掲示板
+- 日記
+- 情報交換
+- 「助けて」の投稿
+- 「これなら手伝える」の申し出
+- 小さな相互支援
+
+等を想定しています。
+
+---
+
+## MeteOmoとの連携
+
+MeteOmoは、天気・気圧・気分・服薬等を記録し、本人が自分の状態を振り返るためのセルフモニタリングアプリです。
+
+長期的には、
+
+```text
+MeteOmo
+  ↓
+本人が現在の状態を把握
+  ↓
+無理なく活動出来る範囲を考える
+  ↓
+Sprout
+  ↓
+学習
+  ↓
+小さな仕事・制作
+  ↓
+実績
+  ↓
+本人に合った社会参加
+```
+
+という連携を構想しています。
+
+ただし、MeteOmoの健康・気分・服薬等のデータがSproutへ自動共有されることを意味しません。
+
+実際に連携する場合は、
+
+- 本人による明確な同意
+- 共有目的
+- 共有項目
+- 共有範囲
+- 保存期間
+- 削除方法
+- 支援者が閲覧出来る範囲
+- セキュリティ
+
+等を個別に設計する必要があります。
+
+---
+
+## Lapiaとの連携構想
+
+Lapia（ラピア）は、匿名で共感的なサポーターと1対1で対話出来ることを中心にした、**非恋愛・非性的な匿名共感対話アプリ構想**です。
+
+Lapiaの設計には、感情タグによるサポーター選択、テキスト・音声での対話、利用後の気分記録、ログ削除、サポーター側の負担軽減などが含まれています。
+
+Sproutとの将来連携では、
+
+```text
+Sprout
+  ↓
+学習・仕事・社会参加を試す
+  ↓
+不安、孤独、対人負担などが生じる
+  ↓
+本人が希望する場合のみ
+  ↓
+Lapia
+  ↓
+匿名で人と話す・気持ちを整理する
+  ↓
+必要に応じてSproutへ戻る
+```
+
+という、**学習・就労支援と対話支援を役割分担する構成**を検討出来ます。
+
+Sproutが「学ぶ・働く・実績を作る場所」を担当し、Lapiaは「誰かと話したい時の対話支援」を担当する位置付けです。
+
+両サービスを連携する場合も、Sprout上の就労・福祉・健康情報や、Lapia上の会話内容が自動的に相互共有されることを前提としません。
+
+本人の同意、共有範囲、保存、削除、匿名性等を別途設計する必要があります。
+
+---
+
+# 想定ユーザー
+
+Sproutでは、特定の診断名だけを利用条件にすることは想定していません。
+
+主な対象として検討しているのは、
+
+- 就労に不安がある人
+- A型・B型事業所等を利用している人
+- 精神的な困難を抱える人
+- 身体的な障害・体調上の制約がある人
+- 知的障害等支援を必要とする人
+- 対人コミュニケーションへの負担が大きい人
+- 一般的な学習環境では進めにくい人
+- 小さな仕事から経験したい人
+- 福祉職・就労支援者
+- 福祉事業者
+
+等です。
+
+利用者側だけでなく、**支援者・事業者側の業務補助や教材提供**も構想に含まれています。
+
+---
+
+# 技術構成（構想段階）
+
+現在の設計資料では、以下を候補としています。
+
+- **Framework:** Flutter
+- **AI:** GPTを利用した学習・記録補助
+- **Data:** 暗号化保存を前提とした設計
+- **Data deletion:** 自動削除オプションの検討
+- **Sharing:** 支援者との共有は本人の任意
+- **Connectivity:** ネット接続が弱い環境でも利用しやすい構成
+- **Local operation:** 一部機能のローカル動作を検討
+
+これらは現在の**技術構想**であり、実装開始時に技術、安全性、保守性、費用、利用規約等を確認した上で変更される可能性があります。
+
+---
+
+# AI利用について
+
+Sproutでは、AIを本人や支援者の代替にすることを目的としていません。
+
+想定用途は、
+
+- 学習時の質問対応
+- 説明の言い換え
+- 反復練習
+- 日報作成補助
+- 記録整理
+- 支援者の教材作成補助
+
+等です。
+
+利用者の能力や価値をAIが決定すること、福祉制度上の資格を判定すること、医療判断を行うこと等は目的としていません。
+
+AI機能を実装する場合は、送信される情報、送信先、保存、利用目的等を明確にし、必要な場合には本人の同意を得る設計が必要です。
+
+---
+
+# プライバシー・データ管理
+
+Sproutでは、気分、体調、就労状況、支援情報等の個人的な情報を扱う可能性があります。
+
+そのため実装時には、
+
+- 必要以上の情報を取得しない
+- 保存データを保護する
+- 支援者への共有を本人の任意とする
+- 共有範囲を本人が確認出来るようにする
+- 削除方法を明確にする
+- AI等の外部サービスへ送信する場合は目的を説明する
+- 外部サービスを利用しなくても可能な範囲で基本機能を維持する
+
+ことを設計原則とします。
+
+---
+
+# 現在の開発段階
+
+Sproutは現在、**設計・構想段階**です。
+
+公開済みの設計資料には、理念、対象利用者、学習支援、仕事体験、ポートフォリオ、メンタルヘルス連携、福祉情報、コミュニティ等の構想がまとめられています。
+
+現時点では、公開資料上でα版・β版アプリの完成・一般提供まではありません。
+
+今後の候補として、
+
+1. 機能要件の再整理
+2. 画面構成・フローチャート作成
+3. データ設計
+4. プライバシー・セキュリティ要件整理
+5. Flutterによるα版・β版
+6. 学習支援機能
+7. 日報・PDF出力
+8. スモールワーク機能
+9. ポートフォリオ連携
+10. コミュニティ機能
+11. MeteOmo・Lapia等との連携
+
+等を段階的に検討しています。
+
+---
+
+# このリポジトリについて
+
+このリポジトリは、Sproutの構想・設計・将来実装候補を記録するために公開しています。
+
+現在の主な設計資料：
+
+- `Sprout_Design_v0.1.pdf` または同内容の設計文書  
+  Sproutの理念、対象利用者、主要機能、技術構想を整理した資料
+
+- [`LICENSE.md`](./LICENSE.md)  
+  Sprout Custom License / 利用条件
+
+公開されている内容には、未実装の構想、検討中の案、将来候補が含まれます。
+
+**GitHub上で公開されていること自体は、内容を自由に利用・改変・再配布出来ることを意味しません。**
+
+---
+
+# 著作権・利用条件
+
+**Copyright © 2025 Yutaka Yoshioka. All Rights Reserved.**
+
+Sproutに関する成果物の著作権その他の権利は、それぞれ実際に制作した権利者に帰属します。
+
+本リポジトリに掲載されるもののうち、吉岡有隆（Yutaka Yoshioka）が制作した具体的な成果物には、例えば以下が含まれます。
+
+- 設計文書
+- フローチャート
+- 文章・説明文
+- UI・UX設計資料
+- 画面構成
+- ロゴ・アイコン・画像等の制作物
+- その他の著作物
+
+Sproutの名称・ブランド等についても、公式プロジェクトと誤認させる利用、なりすまし、混同を招く利用を認めません。
+
+本プロジェクトは、MIT License、Apache License 2.0等の一般的なオープンソースライセンスを採用していません。
+
+Sprout Custom Licenseで明示的に認められる場合を除き、無断での、
+
+- 複製
+- 全文転載
+- 再配布
+- 改変
+- 商用転用
+- 素材流用
+- 派生物としての公開
+- Sproutを装ったサービス公開
+- なりすまし
+- 権利者を偽る利用
+
+等を認めません。
+
+法令上認められる適切な引用等まで制限する趣旨ではありません。
+
+詳細な条件は、必ず以下を確認してください。
+
+[`LICENSE.md`](./LICENSE.md)
+
+---
+
+# 非軍事・反暴力利用方針
+
+Sproutは、困難を抱える人が学習・就労・自己表現・社会参加へつながるための支援構想です。
+
+その目的と相反するため、本プロジェクトの成果物について、権利者の許可なく以下の目的へ利用することを認めません。
+
+- 軍事目的
+- 武器・兵器の開発、運用または支援
+- 戦闘能力の向上を目的とした利用
+- 人を傷害することを主目的とした技術
+- 虐待等への利用
+- 障害・健康状態等を利用した不当な監視・抑圧
+- 本人の意思に反する心理操作
+- 福祉・就労情報を利用した不当な差別・選別
+
+具体的な利用条件については、[`LICENSE.md`](./LICENSE.md) を優先します。
+
+---
+
+# コントリビューション
+
+Sproutは現在、構想・設計段階です。
+
+Issue、改善提案、翻訳案、UI案、技術的な意見、将来的な実装協力等は歓迎します。
+
+ただし、Pull Requestや提案を送信したことによって、本プロジェクトの既存成果物を第三者が自由に再利用出来る権利が生じるものではありません。
+
+また、実際に第三者制作物を取り込む場合には、権利関係・ライセンス・クレジット等を個別に確認します。
+
+---
+
+# 関連プロジェクト
+
+## MeteOmo
+
+天気・気圧・気分・服薬等を低負担で記録し、本人が自分の状態を振り返るためのセルフモニタリングアプリ。
+
+Sproutとは将来的に、**「状態を知る」から「無理のない学習・就労へ進む」**ための連携を検討しています。
+
+## Lapia
+
+匿名で共感的なサポーターと1対1で対話することを中心とした、非恋愛・非性的な共感対話アプリ構想。
+
+Sproutでの学習・仕事・社会参加に伴う孤独感や対人負担に対して、本人が希望する場合に利用出来る別の対話支援として連携を検討します。
+
+---
+
+# DOI / Archive
+
+Sproutに関連する公開記録はZenodoにも保存されています。
+
+**DOI:** 10.5281/zenodo.15878651
+
+https://doi.org/10.5281/zenodo.15878651
+
+---
+
+# 更新履歴
+
+- **2025-07-14** — Sprout初期構想・ライセンス制定
+- **2026-08-26** — README全面整理。目的、福祉施設間の機会格差是正、主要機能、MeteOmo・Lapia連携、技術構想、プライバシー、著作権、非軍事利用方針を再構成
