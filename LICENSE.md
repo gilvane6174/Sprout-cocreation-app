@@ -262,8 +262,8 @@ Sproutは、医療、診断、治療、福祉制度上の認定、就労可否�
 特別な利用許可、共同利用、転載、翻訳公開、研究利用その他の相談については、著作権者へお問い合わせください。
 
 **吉岡有隆（Yutaka Yoshioka）**  
-X: [@yoshiokayutaka_](https://x.com/yoshiokayutaka_)
-
+X（創作）: [@yoshiokayutaka_](https://x.com/yoshiokayutaka_)
+X（開発）: [@yutakaapp_](https://x.com/yutakaapp_)
 ---
 
 ## 著作権表示
