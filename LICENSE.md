@@ -1,133 +1,273 @@
-# Sprout カスタムライセンス  
-バージョン 1.0 — 2025年7月14日制定  
-© 2025 吉岡有隆（Yutaka Yoshioka）
+# Sprout カスタムライセンス
 
-本プロジェクト「Sprout（スプラウト）」および関連資料は、本カスタムライセンスのもとで保護されています。
+**バージョン 1.1**  
+**制定日：2025年7月14日**  
+**改訂日：2026年8月26日**
 
-## 1. 保護対象
+**Copyright © 2025 吉岡有隆（Yutaka Yoshioka）. All Rights Reserved.**
 
-以下の要素はすべて著作権により保護されます：
+本ライセンスは、プロジェクト「Sprout（スプラウト）」に関して公開される設計文書、文章、画像、UI・UX資料、ロゴその他の著作物について、利用条件を定めるものです。
 
-- 設計理念および構想全体の構造  
-- 名称・ブランド・ロゴ・UI/UXデザインなどのビジュアル要素  
-- 記述・文章・説明文・ユーザー向けテキスト全般  
-- プロジェクトの目的（共創・自立支援・包摂的支援システム）
+Sproutは公開リポジトリ上で資料を公開する場合がありますが、**公開されていること自体は、自由な複製・改変・再配布・商用利用を許可することを意味しません。**
 
-これらの著作権はすべて**吉岡有隆（Yutaka Yoshioka）**に帰属します。
-
-## 2. 許可されること
-
-以下の行為は、本ライセンスのもとで自由に行うことができます：
-
-- 公開されている設計資料の閲覧・共有  
-- クレジットを明記した上での翻訳  
-
-## 3. 禁止事項
-
-以下の行為は禁止されています：
-
-- 明示的な許可なく、本構想や資料を**営利・非営利目的**で使用すること  
-- **軍事、暴力、監視、搾取的な用途**への応用  
-- 著作権者の表示を削除・偽装・書き換える行為  
-- 本プロジェクトを基にした二次創作物の無断販売・ライセンス供与
-
-## 4. クレジット表記の義務
-
-Sproutの概念・資料・翻訳・共有する際は、必ず以下の著作権表記を明記してください：
-
-あわせて、元のリポジトリや公式文書へのリンクを可能であれば添えてください。
-
-## 5. F.U.K.U構想およびKindureOSとの関係
-
-本ライセンスは、**F.U.K.U構想（優しさの構造設計）**の倫理原則に準拠し、  
-**KindureOSライセンス**（平和的・再生的・包摂的システムを優先する設計原則）と整合しています。
-
-## 6. 免責事項
-
-このライセンスは、商標やプロジェクト名「Sprout」、ロゴの使用権を自動的に付与するものではありません。  
-公式プロジェクトと混同を招く利用、誤認を与える使用は禁止されます。
-
-本ライセンスの使用は自己責任で行ってください。著作権者は、使用または誤用によって生じたいかなる損害にも責任を負いません。
+本プロジェクトは、MIT License、Apache License 2.0その他の一般的なオープンソースライセンスを採用していません。
 
 ---
 
-ご質問や特別な利用許可については、以下の著作権者までご連絡ください：  
-**吉岡有隆（Yutaka Yoshioka）** — [@yoshiokayutaka_]
+## 1. 権利者
+
+Sproutに関して、吉岡有隆（Yutaka Yoshioka）が制作した著作物の著作権は、吉岡有隆に帰属します。
+
+対象には、例えば以下が含まれます。
+
+- 設計文書
+- 仕様書
+- フローチャート
+- 画面構成資料
+- UI・UX設計資料
+- 文章・説明文・ユーザー向けテキスト
+- 図表
+- ロゴ
+- アイコン
+- 画像
+- その他、吉岡有隆が制作した著作物
+
+第三者が制作した成果物が含まれる場合、その成果物の権利は各権利者に帰属します。
 
 ---
 
-# Sprout Custom License  
-Version 1.0 — Established on July 14, 2025  
-© 2025 Yutaka Yoshioka (吉岡有隆)
+## 2. 保護対象について
 
-The project "Sprout" and all related materials are protected under this custom license.
+本ライセンスは、Sproutに関する**具体的な表現物・制作物**を保護対象とします。
 
----
+例えば、
 
-## 1. Scope of Protection
+- Sproutの設計内容を具体的に記述した文章
+- 機能構成を表現した設計図
+- 画面遷移図
+- UI・UX資料
+- ロゴ・アイコン・画像
+- 独自の説明文
+- 公開ドキュメント
 
-The following elements are protected by copyright:
+などが対象となります。
 
-- The overall conceptual design and system structure  
-- The project name, branding, logo, and visual elements including UI/UX  
-- All written content including descriptions, documents, and user-facing text  
-- The project’s purpose: co-creation, empowerment, and inclusive support systems
+なお、一般的なアイデア、思想、目的、方法論その他の抽象的概念そのものについて、著作権法上当然に独占権が発生することを主張するものではありません。
 
-All copyrights are held exclusively by **Yutaka Yoshioka (吉岡有隆)**.
-
----
-
-## 2. Permitted Uses
-
-The following uses are allowed under this license:
-
-- Viewing and sharing publicly available design documents  
-- Translating the materials, **provided proper credit is clearly displayed**
-
-**Modification of any kind is strictly prohibited under all circumstances.**
+ただし、Sproutの名称、ロゴ、ブランド表示等については、著作権とは別に、商標・不正競争防止その他の法的保護が関係する場合があります。
 
 ---
 
-## 3. Prohibited Actions
+## 3. 許可される利用
 
-The following actions are strictly prohibited:
+以下の利用は、本ライセンスの範囲内で認めます。
 
-- Using any part of this project for **commercial or non-commercial purposes** without explicit permission  
-- Applying the materials to **military, violent, surveillance, or exploitative purposes**  
-- Removing, falsifying, or altering the author’s name or copyright attribution  
-- Selling, licensing, or distributing derivative works based on this project without permission  
-- **Any form of modification, editing, or adaptation**
+### 3-1. 閲覧
 
----
+公開されているSproutの資料を、個人的な閲覧・研究・学習目的で参照すること。
 
-## 4. Attribution Requirement
+### 3-2. リンク共有
 
-When sharing, translating, or referencing the concept or materials of Sprout, the following copyright notice must be included:
+GitHub、公式文書、DOIその他の**公式な公開先へのリンクを共有すること**。
 
-> © 2025 Yutaka Yoshioka (吉岡有隆)  
-> Unauthorized reproduction, modification, or distribution is strictly prohibited.
+### 3-3. 法令上認められる引用
 
-Whenever possible, please include a link to the original repository or official documentation.
+著作権法その他の法令上認められる範囲で、出典を明示して引用すること。
 
----
+引用の際は、可能な限り以下を明記してください。
 
-## 5. Relation to F.U.K.U. Framework and KindureOS
+> Sprout  
+> © 2025 吉岡有隆（Yutaka Yoshioka）
 
-This license adheres to the ethical principles of the **F.U.K.U. Framework** (Designing Structures of Kindness),  
-and aligns with the **KindureOS License**, which prioritizes peaceful, regenerative, and inclusive system design.
+あわせて、元のリポジトリ、DOIまたは公式文書へのリンクを付記することを推奨します。
 
----
+### 3-4. 個人的な翻訳
 
-## 6. Disclaimer
+公開されている文章を、**個人的・非公開の学習または参照目的**で翻訳すること。
 
-This license does **not** grant automatic permission to use the project name "Sprout" or its logo.  
-Any usage that may cause confusion with the official project, or mislead users, is strictly prohibited.
-
-Use of this license is at your own risk. The author assumes no responsibility for any damage caused by use or misuse.
+翻訳物をWeb、SNS、GitHub、出版物その他の媒体で公開・配布する場合は、事前に著作権者の許可を得てください。
 
 ---
 
-For inquiries or special permissions, please contact the copyright holder:  
-**Yutaka Yoshioka (吉岡有隆)** — [@yoshiokayutaka_]
+## 4. 禁止事項
+
+著作権者の事前の明示的な許可がない限り、以下の行為を禁止します。
+
+### 4-1. 複製・転載・再配布
+
+- 設計資料の全文転載
+- ファイルの複製配布
+- 別サイト・別リポジトリへの再掲載
+- PDF、画像、文章等の再配布
+- ミラーサイトの作成
+
+### 4-2. 改変・派生物
+
+- 設計資料の改変
+- UI・UX資料の改変
+- ロゴ・アイコンの改変
+- Sproutの資料を加工した派生物の公開
+- 本プロジェクトの成果物を基礎とした無断の二次配布
+
+### 4-3. 商用利用
+
+- 有償商品の制作
+- 有料サービスへの組み込み
+- 営利サービスへの転用
+- 有償コンサルティング資料としての利用
+- 広告収益を目的とした転載
+- 本プロジェクトの素材・文章・設計資料を用いた販売
+
+### 4-4. 非営利目的での無断利用
+
+非営利であっても、著作権者の許可なく、
+
+- アプリ
+- Webサービス
+- 支援サービス
+- 教材
+- 研究成果物
+- 配布物
+- 派生プロジェクト
+
+等へSproutの著作物を組み込むことを禁止します。
+
+「非営利であること」は、自由利用を意味しません。
+
+### 4-5. 権利表示の削除・偽装
+
+- 著作者名の削除
+- 著作権表示の削除
+- 著作者名の書き換え
+- 自作であるかのような表示
+- 第三者が公式プロジェクトであるかのように誤認させる表示
+
+を禁止します。
 
 ---
+
+## 5. 軍事・暴力・監視・搾取目的での利用禁止
+
+Sproutは、学習、就労、福祉、社会参加等を支援することを目的としたプロジェクトです。
+
+その目的と相反するため、本プロジェクトの成果物を以下の用途へ利用することを禁止します。
+
+- 軍事目的
+- 武器・兵器の開発、運用または支援
+- 戦闘能力の向上を目的とした利用
+- 人を傷害することを主目的とした技術
+- 虐待への利用
+- 本人の意思に反する心理操作
+- 障害、健康状態、福祉利用歴等を利用した不当な監視
+- 不当な差別・選別
+- 搾取的な労働管理
+- 福祉利用者その他の弱い立場にある人を不当に支配・操作する目的での利用
+
+---
+
+## 6. Sprout名称・ロゴ・ブランドの利用
+
+本ライセンスは、「Sprout」という名称、ロゴ、ブランド表示その他の識別要素について、第三者へ自由な使用権を付与するものではありません。
+
+以下の行為を禁止します。
+
+- 公式Sproutと誤認される名称・表示で公開すること
+- 公式版・公認版・提携版であると誤認させること
+- Sproutのロゴを無断で使用すること
+- Sproutと実質的に同一の名称・表示を用いて利用者を混同させること
+- 著作権者または公式プロジェクトになりすますこと
+
+---
+
+## 7. 個別利用許可
+
+本ライセンスで認められていない利用を希望する場合は、著作権者から事前に許可を得てください。
+
+許可の対象となり得る例：
+
+- 教育目的での資料利用
+- 福祉施設等での研修利用
+- 研究機関での利用
+- 翻訳版の公開
+- 一部資料の転載
+- 共同開発
+- 技術協力
+- 商用利用
+- 派生プロジェクト
+
+許可条件は、利用目的、範囲、期間、媒体、営利性等に応じて個別に定めます。
+
+許可を受けた場合でも、許可された範囲を超える利用は認められません。
+
+---
+
+## 8. 第三者の権利
+
+Sproutの公開資料に第三者が権利を有する素材、ライブラリ、フォント、画像その他の要素が含まれる場合、それらには各権利者が定める利用条件が適用されます。
+
+本ライセンスは、第三者が有する権利まで利用許諾するものではありません。
+
+---
+
+## 9. 無保証
+
+Sproutの設計資料、仕様、文章その他の公開情報は、現状有姿で提供されます。
+
+著作権者は、
+
+- 特定目的への適合性
+- 正確性
+- 完全性
+- 継続的な提供
+- 実装可能性
+- 法令への適合性
+- 医療・福祉・就労上の効果
+
+等を保証しません。
+
+Sproutは現在、構想・設計段階の内容を含みます。
+
+公開資料に記載された機能や計画が、将来必ず実装・提供されることを保証するものではありません。
+
+---
+
+## 10. 医療・福祉・就労等に関する免責
+
+Sproutは、医療、診断、治療、福祉制度上の認定、就労可否の判断その他の専門的判断を代替するものではありません。
+
+公開されている資料を利用・参照したことによって生じた判断、損失、損害その他の結果について、法令上責任を免除できない場合を除き、著作権者は責任を負いません。
+
+---
+
+## 11. ライセンス違反
+
+本ライセンスに違反した利用について、著作権者は利用停止、削除、公開停止その他必要な対応を求める場合があります。
+
+違反行為が著作権その他の権利を侵害する場合には、法令に基づく対応を行う場合があります。
+
+---
+
+## 12. ライセンスの変更
+
+本ライセンスは、プロジェクトの発展、法令、公開方法、運用方針等に応じて改訂される場合があります。
+
+改訂後のライセンスは、原則として改訂後に公開・提供される資料について適用します。
+
+特定の資料に別途ライセンス表記がある場合は、その資料に記載された条件を優先します。
+
+---
+
+## 13. 問い合わせ
+
+特別な利用許可、共同利用、転載、翻訳公開、研究利用その他の相談については、著作権者へお問い合わせください。
+
+**吉岡有隆（Yutaka Yoshioka）**  
+X: [@yoshiokayutaka_](https://x.com/yoshiokayutaka_)
+
+---
+
+## 著作権表示
+
+> **Sprout**  
+> Copyright © 2025 吉岡有隆（Yutaka Yoshioka）. All Rights Reserved.  
+> Unauthorized reproduction, redistribution, modification, or commercial use is prohibited except as expressly permitted by the Sprout Custom License.
