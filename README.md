@@ -544,7 +544,7 @@ Sproutは現在、**設計・構想段階**です。
 
 現在の主な設計資料：
 
-- `Sprout_Design_v0.1.pdf` または同内容の設計文書  
+- [`docs/Sprout_Design_v0.1.md`](./docs/Sprout_Design_v0.1.md)  
   Sproutの理念、対象利用者、主要機能、技術構想を整理した資料
 
 - [`LICENSE.md`](./LICENSE.md)  
